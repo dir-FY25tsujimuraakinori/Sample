@@ -2,14 +2,10 @@ package sample;
 
 public class Test {
 
-    //mainメソッドはプログラムの最初に動作します。
-    public static void main(String[] args) { 
-        /*コメントアウト
-        System.out.println("Kiramex"); 
-        System.out.println("Java"); 
-        */
-        System.out.println("学習を始めましょう!"); 
+    public static void main(String[] args) {
+        String if = "何らかのデータ";
+        if = "別の何か";
 
+        System.out.println(if);
     }
-
 }
